@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+	padding-top: 5em;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	color: #666;
+	line-height: 1.5em;
+}
+
+header {
+	background: #333;
+	color: #fff;
+	height: 80px;
+	margin-bottom: 20px; 
+    padding-top: 15px;
+    margin-top: -18px;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#books-index {
+	text-align: center;
+}
+
+#books-index img {
+	width: 100%;
+	padding: 3px;
+	border: 3px #ccc solid;
+}
+
+#books-index h3 {
+    height: 50px;
+    margin-bottom: 15px
+}
+
+#books-index .row {
+	padding-top: 30px;
+}
+#books-index .btn {
+	display: block;
+	margin-top: 5px;
+}
+
+#books-show h2 {
+	background: #f4f4f4;
+	margin-top: 20px;
+}
+.books-show-left {
+float: left;
+width: 40%;
+}
+.books-show-right {
+	float: right;
+	width: 60%;
+	margin-top: 10px;
+}
